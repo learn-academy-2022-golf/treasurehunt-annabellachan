@@ -17,7 +17,12 @@ const App = () => {
   ])
 
   const handleGamePlay = (index) => {
-    alert(index)
+    let updatedBoard = [...board]
+    // ... spread operator creates a copy of the state variable board
+    updatedBoard[index] = "🎄"
+    // console.log(updatedBoard)
+    setBoard(updatedBoard)
+    // invokes the function instead of using console.log
 
   }
 
