@@ -6,4 +6,21 @@ h1 {
   height: 200px;
   width: 200px;
   border: 1px solid black;
+  font-size: 150px;
+  /* changes the font size values in box */
+  text-align: center;
+  /* aligns the stuff in the box */
 }
+
+.gameboard {
+  display: flex; 
+  /* creates one long row of squares */
+  flex-wrap: wrap;
+  /* maintains each square is the right height and width at standard size */
+  width: 620px;
+    /* each square is 200 px and one row is 600 px */
+  margin: 0 auto;
+  /* centers the box */
+
+}
+
